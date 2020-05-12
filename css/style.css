@@ -37,10 +37,16 @@ body{
 #he1 a{
     display: inline-block;
     margin-top: 20px;
-    padding: 20px 20px 20px 20px;
+    padding: 20px /*20px 20px 20px*/;
     border: 1px solid white;
 
     /* Якщо не задати колір, то він - синій. Чому не наслідується від body? */
     color: white;
+}
+
+.column{
+    margin: 20px 100px;
+    columns: 400px 2;
+    column-gap: 50px;
 }
 
