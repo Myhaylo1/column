@@ -3,10 +3,9 @@ body{
     padding: 0;
     text-align: center;
     font-size: 15px;
-    text-align: center;
 
     /* Не працює: */
-    font-family: "Arial, Helvetica, sans-serif";
+    font-family: Arial, Helvetica, sans-serif;
 }
 #he1{
     padding: 100px;
@@ -69,3 +68,40 @@ body{
     width: inherit;
     object-fit: cover;
 }
+
+#se3{
+    background-color: white;
+    width: 85vw;
+    display: inline-block;
+    border-color: white;
+    padding: 0 25px 25px;
+}
+
+.se41{
+    font-size: 15px;
+    display: inline-block;
+    border-color: inherit;
+    /*solid 30px;*/
+    background-color: inherit;
+    vertical-align: top;
+    margin: 0;
+    padding: 0 25px;
+}
+
+.h2{
+    border: 20px;
+    border-style: solid;
+    border-color: inherit;
+}
+
+#se5{
+    /*background-color: #0073ff;*/
+    /*width: 50vw;*/
+    display: flex;
+    /*border-color: #0073ff;*/
+    /*border: #0073ff solid 30px;*/
+    width: inherit;
+    border: 1px solid transparent;
+    height: 30vh;
+}
+
