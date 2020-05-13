@@ -63,6 +63,9 @@ body{
     vertical-align: top;
     margin: 0 10px;
 }
+.se2_div{
+    padding: 0 10px;
+}
 
 .img_txt{
     width: inherit;
